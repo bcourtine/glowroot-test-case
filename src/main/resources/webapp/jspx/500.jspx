@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html lang="fr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml" xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+	xmlns:fmt="http://java.sun.com/jsp/jstl/fmt"
+>
+<jsp:output doctype-root-element="html" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+	doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" omit-xml-declaration="yes"
+/>
+<jsp:directive.page contentType="text/html; charset=UTF-8" isErrorPage="true" />
+
+<fmt:requestEncoding value="UTF-8" />
+<head>
+<base href="${pageContext.request.contextPath}/" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>500 - Erreur interne du serveur</title>
+</head>
+<body>
+<h1>Internal error</h1>
+<div>This error page should be displayed</div>
+</body>
+</html>
